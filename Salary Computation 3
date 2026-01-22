@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+    Scanner inn=new Scanner(System.in);
+        int a =inn.nextInt();
+        double hra=a*0.50;
+        double da=a*0.55;
+        double gs=a+hra+da;
+        System.out.printf("%.2f",gs);
+    }
+}
