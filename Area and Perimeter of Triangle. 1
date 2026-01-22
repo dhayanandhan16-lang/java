@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+         Scanner inn=new Scanner(System.in);
+        double b=inn.nextDouble();
+        double h=inn.nextDouble();
+        double s1=inn.nextDouble();
+        double s2=inn.nextDouble();
+        double s3=inn.nextDouble();
+        double area =(b*h)/2;
+        double perimeter =s1+s2+s3;
+        System.out.printf("Area of Triangle is %.2f\n",area);
+        System.out.printf("Perimeter of Triangle is %.2f\n",perimeter);
+        
+        }
+}
