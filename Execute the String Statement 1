@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner inn=new Scanner(System.in);
+        String a=inn.nextLine();
+        System.out.println("Hai "+a+"!    Welcome to Programming Language...");
+    }
+}
