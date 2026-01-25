@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner inn=new Scanner(System.in);
+        String a=inn.next();
+        if(a.length()>=2){
+            char first=a.charAt(0);
+            char second=a.charAt(1);
+            System.out.println(""+second+first);
+        }
+        else{
+            System.out.println("STDOUT");
+        }
+    }
+}
